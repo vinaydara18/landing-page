@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #cf76a0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #bb0c80;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('https://wallpapercave.com/wp/Cd7iyFl.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #e90808;
+    color: #100f0f;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .programs, .testimonials, .contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h3, .programs h3, .testimonials h3, .contact h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.program-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.66%;
+    background: #dcd2d2;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.program-item h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.program-item p {
+    font-size: 16px;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
